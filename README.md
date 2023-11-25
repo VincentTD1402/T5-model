@@ -18,6 +18,7 @@ The main ROUGE metrics include:
 - ROUGE-N (N-gram Overlap): Measures the overlap of n-grams (contiguous sequences of n items, usually words) between the system-generated summary and the reference summaries. ROUGE-N includes various variations like ROUGE-1 (unigrams), ROUGE-2 (bigrams), and ROUGE-3 (trigrams).
 
 - ROUGE-L (Longest Common Subsequence): Measures the longest common subsequence of words between the system summary and reference summaries. It considers word sequences rather than just n-grams, providing a more global measure of content overlap.
+
 In this task we just use **Rouge-1**, **Rouge-2** and **Rouge-L**
 
 ## Result
